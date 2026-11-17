@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Terang AI × The SUN Strategy | Team Semelegenje</title>
+<meta name="description" content="Appendix for the Techtonic 3.0 Mini Case Competition: Terang AI go-to-market strategy by Team Semelegenje.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#0B1F4D;--navy:#0E2A5C;--blue:#2F6BF2;--blue2:#1E4FA8;--sky:#38B7FD;--soft:#EAF2FF;--line:#DCE6F7;--grey:#5E6E86;--amber:#F6B730;--green:#22C55E;--red:#EF4444;--r:22px}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:Poppins,system-ui,sans-serif;color:var(--ink);background:#F6F9FF;line-height:1.6;-webkit-font-smoothing:antialiased}
+a{color:var(--blue)}
+img{max-width:100%;display:block}
+.wrap{max-width:1140px;margin:0 auto;padding:0 22px}
+/* ---------- hero ---------- */
+.hero{position:relative;overflow:hidden;color:var(--ink);background:radial-gradient(1200px 600px at 50% -10%,#FFFFFF 0%,#DCE8FF 35%,#9DBDFF 70%,#5B8DF7 100%);padding-bottom:90px;border-radius:0 0 40px 40px}
+.blob{position:absolute;border-radius:50%;background:radial-gradient(circle at 30% 30%,#9CC0FF,#2F6BF2 70%);filter:blur(1px);opacity:.85}
+.b1{width:300px;height:300px;left:-200px;top:520px}.b2{width:420px;height:420px;right:-180px;bottom:-120px}.b3{width:160px;height:160px;right:12%;top:90px;opacity:.35}
+nav.top{position:relative;z-index:3;display:flex;align-items:center;justify-content:space-between;padding:22px 0}
+.logo{display:flex;align-items:center;gap:10px;font-weight:800;font-size:21px;color:var(--blue2);text-decoration:none}
+.logo img{height:34px;width:auto}
+.links{display:flex;gap:6px;flex-wrap:wrap}
+.links a{font-size:13.5px;font-weight:500;color:var(--navy);text-decoration:none;padding:8px 12px;border-radius:999px}
+.links a:hover{background:rgba(255,255,255,.6)}
+.cta{background:#fff;color:var(--blue2)!important;font-weight:600!important;box-shadow:0 6px 18px rgba(30,79,168,.18)}
+.hero h1{position:relative;z-index:2;text-align:left;font-size:clamp(34px,6.4vw,66px);line-height:1.08;margin:18px 0 14px;font-weight:700;letter-spacing:-1px;max-width:620px}
+.hero h1 em{font-style:normal;color:var(--blue)}
+.hero p.sub{position:relative;z-index:2;text-align:left;font-size:clamp(15px,2vw,18px);color:#2A3D66;max-width:540px;margin:0 0 26px}
+.pill{position:relative;z-index:2;display:flex;align-items:center;gap:12px;max-width:520px;margin:0;background:rgba(255,255,255,.88);border:1px solid #fff;border-radius:999px;padding:8px 8px 8px 22px;box-shadow:0 10px 30px rgba(30,79,168,.18);font-size:14px;color:var(--grey)}
+.pill b{color:var(--ink)}.pill a{margin-left:auto;background:var(--blue);color:#fff;text-decoration:none;font-weight:600;padding:10px 18px;border-radius:999px;white-space:nowrap}
+.kick{position:relative;z-index:2;display:inline-flex;align-items:center;gap:12px;background:#1E4FA8;color:#fff;border-radius:999px;padding:6px 16px 6px 8px;font-size:12.5px;font-weight:600;box-shadow:0 8px 20px rgba(30,79,168,.25)}
+.kick img{height:30px;width:auto;background:#163E8C;border-radius:999px;padding:3px 12px}
+.herogrid{position:relative;z-index:2;display:grid;grid-template-columns:1.15fr .85fr;gap:40px;align-items:center;padding-top:30px}
+.phone{position:relative;justify-self:center;width:290px}
+.phone>img{width:100%;border-radius:34px;border:8px solid #fff;box-shadow:0 30px 60px rgba(14,42,92,.35)}
+.float{position:absolute;background:rgba(255,255,255,.95);border:1px solid #fff;border-radius:18px;padding:12px 16px;box-shadow:0 16px 34px rgba(14,42,92,.2);font-size:12px;color:var(--grey);white-space:nowrap}
+.float b{display:block;font-size:20px;color:var(--blue2);line-height:1.15}
+.f1{left:-110px;top:70px}.f2{right:-100px;top:250px}.f3{left:-80px;bottom:60px}
+.phone>img.brandicon{position:absolute;right:-24px;top:-24px;width:64px;height:64px;border:0;border-radius:50%;box-shadow:0 10px 24px rgba(56,183,253,.5);z-index:3}
+/* ---------- sections ---------- */
+section{padding:70px 0 10px}
+.eyebrow{display:inline-flex;align-items:center;gap:8px;font-size:12.5px;font-weight:600;color:var(--blue2);background:#fff;border:1px solid var(--line);padding:5px 12px;border-radius:999px}
+.eyebrow:before{content:"";width:8px;height:8px;border-radius:50%;background:var(--blue)}
+h2{font-size:clamp(26px,4vw,40px);line-height:1.15;margin:14px 0 8px;letter-spacing:-.5px;font-weight:700}
+h2 em{font-style:normal;color:var(--blue)}
+.lead{color:var(--grey);max-width:720px;margin:0 0 28px}
+.center{text-align:center}.center .lead{margin-left:auto;margin-right:auto}
+.glass{background:linear-gradient(160deg,rgba(255,255,255,.95),rgba(236,243,255,.9));border:1px solid #fff;border-radius:var(--r);box-shadow:0 10px 30px rgba(30,79,168,.08),inset 0 0 0 1px var(--line)}
+/* bento */
+.bento{display:grid;grid-template-columns:1.1fr 1fr 1fr;gap:16px;margin-top:-60px;position:relative;z-index:4}
+.bento .glass{padding:22px}
+.big{font-size:clamp(46px,7vw,72px);font-weight:800;line-height:.95;color:var(--ink);letter-spacing:-2px}
+.big small{display:block;font-size:22px;letter-spacing:0;font-weight:700;margin-top:6px}
+.muted{color:var(--grey);font-size:13.5px}
+.chart h3,.quote h3{margin:0 0 6px;font-size:16px}
+.badge{display:inline-block;background:var(--soft);color:var(--blue2);font-weight:700;font-size:12.5px;padding:4px 10px;border-radius:999px}
+.quote q{display:block;font-size:17px;font-weight:500;line-height:1.45;margin:10px 0}
+.quote q:before{content:"“";display:block;font-size:44px;line-height:.6;color:var(--blue);font-weight:800}
+.bento2{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px;margin-top:16px}
+.mini{padding:18px!important}
+.mini b{display:block;font-size:26px;color:var(--blue2);line-height:1.1;margin:6px 0 2px}
+/* SUN cards */
+.sun{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.sun .glass{padding:24px;position:relative;overflow:hidden}
+.letter{width:56px;height:56px;border-radius:16px;display:flex;align-items:center;justify-content:center;color:#fff;font-weight:800;font-size:26px;box-shadow:0 10px 20px rgba(47,107,242,.3)}
+.l1{background:linear-gradient(135deg,#7FA6F2,#4A7BD8)}.l2{background:linear-gradient(135deg,#5EA8FF,#1C8FCB)}.l3{background:linear-gradient(135deg,#2F6BF2,#1E4FA8)}
+.sun h3{margin:16px 0 4px;font-size:20px}.sun .role{font-size:12.5px;font-weight:600;color:var(--blue2)}
+.sun ul{padding-left:18px;margin:12px 0;font-size:14px;color:#2A3D66}
+.kpi{display:flex;gap:8px;flex-wrap:wrap}.kpi span{font-size:12px;font-weight:600;background:var(--soft);color:var(--blue2);padding:4px 10px;border-radius:999px}
+/* comparison (blue panel) */
+.compare{background:radial-gradient(900px 500px at 20% 0%,#5EA8FF,#2F6BF2 45%,#1440B8);border-radius:36px;padding:56px 30px;color:#fff;position:relative;overflow:hidden}
+.compare h2{color:#fff}.compare .lead{color:#DCE8FF}
+.cmp{display:grid;grid-template-columns:1.2fr 1fr 1fr;gap:0;align-items:stretch;max-width:980px;margin:0 auto}
+.cmp .col{border-radius:28px;padding:20px 0}
+.cmp .labels{padding-top:74px}
+.cmp .terang{background:#fff;color:var(--ink);box-shadow:0 20px 40px rgba(8,28,90,.35);position:relative;z-index:2}
+.cmp .others{background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.35);margin-left:-18px;padding-left:18px}
+.cmp h4{margin:0 0 18px;text-align:center;font-size:17px}
+.cmp .row{height:58px;display:flex;align-items:center;gap:10px;padding:0 20px;font-size:13.5px;line-height:1.3}
+.cmp .labels .row{justify-content:flex-end;text-align:right;font-weight:600}
+.cmp .labels .row span{background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.5);padding:6px 14px;border-radius:999px}
+.cmp .row .t{flex:1}
+.ic{width:22px;height:22px;flex:none}.ic circle{fill:currentColor}.ic path{stroke:#fff;stroke-width:2.6;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.ok{color:var(--green)}.no{color:#FF8A8A}.pa{color:var(--amber)}
+.others .ok{color:#fff}.others .ok path{stroke:var(--blue)}
+.cmp2{display:grid;grid-template-columns:200px 1fr 1fr;max-width:940px;margin:0 auto;column-gap:14px}
+.cmp2 .hd{padding:20px 22px 14px;font-weight:700;font-size:18px;text-align:left}
+.cmp2 .hd small{display:block;font-size:12px;font-weight:500;opacity:.75}
+.cmp2 .cl{display:flex;align-items:center;gap:12px;padding:15px 22px;font-size:14.5px;line-height:1.35}
+.cmp2 .cl p{margin:0}.cmp2 .cl p em{display:none}
+.cmp2 .lab{justify-content:flex-end;text-align:right;font-weight:600;color:#fff;padding-left:0}
+.cmp2 .lab span{background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.45);padding:6px 14px;border-radius:999px;font-size:13.5px;white-space:nowrap}
+.cmp2 .tr{background:#fff;color:var(--ink);border-top:1px solid #EEF3FC}
+.cmp2 .hd.tr{border-radius:24px 24px 0 0;border-top:0;color:var(--blue2);box-shadow:0 -10px 30px rgba(8,28,90,.25)}
+.cmp2 .tr.last{border-radius:0 0 24px 24px;padding-bottom:22px;box-shadow:0 20px 30px rgba(8,28,90,.25)}
+.cmp2 .ot{background:rgba(255,255,255,.12);color:#EAF1FF;border-top:1px solid rgba(255,255,255,.14)}
+.cmp2 .hd.ot{border-radius:24px 24px 0 0;border-top:0;color:#fff}
+.cmp2 .ot.last{border-radius:0 0 24px 24px;padding-bottom:22px}
+.cmp2 .ic{width:24px;height:24px}
+.cmp2 .ot .no{color:#FF7A7A}
+.legend{display:flex;justify-content:center;gap:22px;flex-wrap:wrap;margin-top:22px;font-size:13px;color:#DCE8FF}
+.legend span{display:inline-flex;align-items:center;gap:8px}.legend .ic{width:18px;height:18px}
+@media (max-width:760px){
+ .cmp2{grid-template-columns:1fr 1fr;column-gap:8px}.cmp2 .lab{display:none}
+ .cmp2 .hd{font-size:14.5px;padding:16px 12px 10px}
+ .cmp2 .cl{flex-direction:column;align-items:flex-start;gap:6px;padding:12px;font-size:12.5px}
+ .cmp2 .cl p em{display:block;font-style:normal;font-size:10.5px;font-weight:700;text-transform:uppercase;letter-spacing:.4px;opacity:.6;margin-bottom:2px}
+ .cmp2 .ic{width:20px;height:20px}
+}
+/* chart animation */
+.anim .gb{transform-box:fill-box;transform:scaleY(0);transition:transform .9s cubic-bezier(.2,.8,.2,1) var(--d)}
+.anim .gb.pos{transform-origin:bottom}.anim .gb.neg{transform-origin:top}
+.anim .gl{opacity:0;transition:opacity .6s ease 1.1s}
+.anim .gline{stroke-dasharray:1;stroke-dashoffset:1;transition:stroke-dashoffset 1.4s ease .3s}
+.anim.in .gb{transform:scaleY(1)}.anim.in .gl{opacity:1}.anim.in .gline{stroke-dashoffset:0}
+.anim .gb.pos.pulse{animation:none}
+@media (prefers-reduced-motion:reduce){.anim .gb,.anim .gl,.anim .gline{transition:none;transform:none;opacity:1;stroke-dashoffset:0}}
+/* pricing-style table */
+.ptable{display:grid;grid-template-columns:1.5fr repeat(4,minmax(0,1fr));gap:0 12px;overflow-x:auto}
+.ph{border-radius:16px 16px 0 0;color:#fff;text-align:center;padding:14px 8px;font-weight:700;font-size:15px;box-shadow:0 12px 24px rgba(0,0,0,.08)}
+.ph small{display:block;font-weight:500;font-size:12.5px;opacity:.95}
+.ph.lab{background:linear-gradient(135deg,#5BD3E6,#38B7D9)}.ph.c1{background:linear-gradient(135deg,#7FA6F2,#4A7BD8)}.ph.c2{background:linear-gradient(135deg,#6C63FF,#4F46E5)}.ph.c3{background:linear-gradient(135deg,#FF5C8A,#E83E6C)}.ph.c4{background:linear-gradient(135deg,#FFB547,#F59E0B)}
+.pc{display:flex;align-items:center;justify-content:center;text-align:center;padding:12px 8px;font-size:13px;border-bottom:1px dashed var(--line);min-height:54px}
+.pc.lab{justify-content:flex-start;font-weight:600;padding-left:16px;text-align:left}
+.pc.alt{background:#F0F4FB}
+.ptable .ic.ok{color:var(--blue)}.ptable .ic.no{color:var(--red)}
+.pcw{overflow-x:auto;padding:4px 2px 10px}.pcw .ptable{min-width:760px}
+/* data tables */
+.tw{overflow-x:auto;border-radius:18px}
+table.dt{width:100%;border-collapse:separate;border-spacing:0;font-size:14px;min-width:520px}
+.two table.dt{min-width:0;font-size:13px}.two table.dt td,.two table.dt th{padding:10px 10px}
+table.dt th{background:linear-gradient(135deg,#2F6BF2,#1E4FA8);color:#fff;font-weight:600;text-align:left;padding:13px 14px}
+table.dt th:first-child{border-radius:16px 0 0 0}table.dt th:last-child{border-radius:0 16px 0 0}
+table.dt td{padding:12px 14px;border-bottom:1px dashed var(--line);background:#fff}
+table.dt tr:nth-child(odd) td{background:#F7FAFF}
+table.dt td.n,table.dt th.n{text-align:right;white-space:nowrap}
+table.dt tr.total td{font-weight:700;background:var(--soft)!important;color:var(--blue2)}
+.tag{display:inline-block;font-size:11px;font-weight:700;background:#FFF1C9;color:#7A5200;border-radius:999px;padding:1px 8px;vertical-align:1px}
+.lvl{display:inline-block;color:#fff;font-weight:700;font-size:12px;padding:3px 10px;border-radius:999px}
+.ex{background:#D93B2B}.hi{background:#F28C28}.me{background:#E0A800}.lo{background:#3FA34D}
+.two{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:16px}
+.card{padding:22px}
+.card h3{margin:0 0 12px;font-size:17px}
+/* prototype */
+.screens{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px}
+.screens figure{margin:0;padding:12px}
+.screens img{border-radius:16px;box-shadow:0 10px 24px rgba(30,79,168,.12)}
+.screens figcaption{font-size:13px;font-weight:600;margin-top:10px;text-align:center}
+/* accordion */
+details{margin-bottom:14px;overflow:hidden}
+summary{cursor:pointer;list-style:none;padding:20px 24px;font-weight:700;font-size:17px;display:flex;align-items:center;gap:14px}
+summary::-webkit-details-marker{display:none}
+summary .letter{width:40px;height:40px;font-size:18px;border-radius:12px}
+summary:after{content:"+";margin-left:auto;font-size:24px;color:var(--blue);font-weight:500}
+details[open] summary:after{content:"–"}
+.doc{padding:0 26px 24px;font-size:14.5px;color:#22345E}
+.doc h4{font-size:17px;margin:24px 0 8px;color:var(--blue2)}.doc h5{font-size:15px;margin:16px 0 6px}.doc h6{font-size:14px;margin:12px 0 4px}
+.doc table{width:100%;border-collapse:collapse;font-size:13px;margin:10px 0;display:block;overflow-x:auto}
+.doc th{background:var(--soft);text-align:left;padding:8px}.doc td{border-bottom:1px solid var(--line);padding:8px}
+.doc blockquote{margin:10px 0;padding:8px 14px;border-left:4px solid var(--sky);background:var(--soft);border-radius:0 10px 10px 0}
+.dl{display:inline-flex;align-items:center;gap:8px;margin:0 0 16px 26px;background:var(--blue);color:#fff;text-decoration:none;font-weight:600;font-size:13.5px;padding:9px 16px;border-radius:999px}
+ul.src{padding-left:20px;margin:0}ul.src li{margin-bottom:8px;font-size:14.5px}
+/* footer */
+footer{margin-top:80px;background:radial-gradient(800px 400px at 80% 120%,#5EA8FF,#2F6BF2 50%,#1440B8);color:#fff;padding:50px 0 40px;border-radius:40px 40px 0 0}
+.fbox{background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.35);border-radius:26px;padding:26px;display:grid;grid-template-columns:1fr 1.4fr;gap:24px;align-items:center}
+.fbox h3{margin:0;font-size:24px}.fbox p{margin:6px 0 0;color:#DCE8FF;font-size:14px}
+.team{display:flex;gap:10px;flex-wrap:wrap}.team span{background:rgba(255,255,255,.18);padding:8px 14px;border-radius:999px;font-size:13.5px}
+.copy{text-align:center;color:#C9DAFF;font-size:12.5px;margin-top:22px}
+/* responsive */
+@media (max-width:960px){.herogrid{grid-template-columns:1fr}.hero h1,.hero p.sub{text-align:center;margin-left:auto;margin-right:auto}.pill{margin:0 auto}.herotext{text-align:center}.phone{width:250px;margin-top:20px}.f1{left:-70px}.f2{right:-70px}.f3{left:-60px}.bento{grid-template-columns:1fr 1fr}.bento .quote{grid-column:span 2}.bento2{grid-template-columns:1fr 1fr}.sun{grid-template-columns:1fr}.screens{grid-template-columns:1fr 1fr}.two{grid-template-columns:1fr}.links a:not(.cta){display:none}}
+@media (max-width:640px){
+ .b3{display:none}.float{transform:scale(.82)}.f1{left:-46px;top:40px}.f2{right:-44px}.f3{left:-40px}.kick{font-size:11px}.kick img{height:24px}.b1{width:220px;height:220px;left:-120px;top:420px}.hero h1 em{background:none;color:var(--blue2)}
+ .two{grid-template-columns:minmax(0,1fr)}
+ table.dt,.two table.dt{min-width:0;font-size:11.5px}table.dt th,table.dt td,.two table.dt td,.two table.dt th{padding:9px 7px}
+ .card{padding:16px}
+ .seg th:nth-child(5),.seg td:nth-child(5){display:none}.seg{font-size:10.5px!important}.seg th,.seg td{padding:8px 5px!important}.seg th.n{white-space:normal}
+ .bento{grid-template-columns:1fr}.bento .quote{grid-column:auto}
+ .compare{padding:40px 14px;border-radius:26px}
+ .cmp{grid-template-columns:1fr 1fr}.cmp .labels{display:none}
+ .cmp .row{height:132px;min-height:0;flex-direction:column;align-items:flex-start;justify-content:center;gap:4px;padding:10px 14px;font-size:12.5px}
+ .cmp .row[data-l]:before{content:attr(data-l);font-size:10.5px;font-weight:700;opacity:.65;text-transform:uppercase;letter-spacing:.5px}
+ .cmp .row .ic{position:absolute;right:10px;top:12px}.cmp h4{font-size:15px;min-height:44px;padding:0 8px}
+ .pcw:after{content:"Swipe to see all plans →";display:block;text-align:center;font-size:12px;color:var(--grey);margin-top:8px}.cmp .row{position:relative;padding-right:40px}
+ .fbox{grid-template-columns:1fr}.pill{font-size:12.5px}.pill span{display:none}
+ section{padding:54px 0 6px}
+}
+</style>
+</head>
+<body>
+
+<header class="hero">
+<div class="blob b1"></div><div class="blob b2"></div><div class="blob b3"></div>
+<div class="wrap">
+<nav class="top">
+<a class="logo" href="#"><img src="assets/terang-logo.png" alt="terang.ai"></a>
+<div class="links"><a href="#strategy">Strategy</a><a href="#model">Financials</a><a href="#prototype">Prototype</a><a class="cta" href="#model">View the numbers</a></div>
+</nav>
+<div class="herogrid">
+<div class="herotext">
+<div class="kick"><img src="assets/techtonic-logo.png" alt="Techtonic 3.0">Mini Case Competition · Team Semelegenje</div>
+<h1>From 1,000 to <em>1 million</em> learners, wired in.</h1>
+<p class="sub">The SUN Strategy: Terang AI's go-to-market plan to grow its app, build daily learning habits, and convert free users into premium subscribers.</p>
+<div class="pill">✦ <b>Strategy, prototype & financial model</b><a href="#strategy">Explore ↓</a></div>
+</div>
+<div class="phone">
+<img class="brandicon" src="assets/terang-icon.png" alt="">
+<img src="assets/Main_EN.png" alt="Terang AI app: tryout result screen with contextual paywall">
+<div class="float f1">Year 1 downloads<b>1M</b></div>
+<div class="float f2">Break-even<b>Q4 Year 1</b></div>
+<div class="float f3">Premium by Q4<b>±7,500</b></div>
+</div>
+</div>
+</div>
+</header>
+
+<main class="wrap">
+
+<!-- BENTO -->
+<div class="bento">
+<div class="glass"><div class="big">1M<small>downloads in Year 1</small></div><p class="muted">Bottom-up across LPDP, UTBK, CPNS, web migration, and general AI users.</p></div>
+<div class="glass chart">
+<div style="display:flex;justify-content:space-between;align-items:center"><h3>Cumulative users</h3><span class="badge">97K → 999K</span></div>
+<svg class="anim" viewBox="0 0 300 150" width="100%" role="img" aria-label="Cumulative downloads per quarter: 97K, 411K, 655K, 999K">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2F6BF2" stop-opacity=".55"/><stop offset="1" stop-color="#2F6BF2" stop-opacity=".08"/></linearGradient></defs>
+<rect class="gb pos" style="--d:0s" x="22" y="112" width="44" height="14" rx="8" fill="url(#bg)"/><rect class="gb pos" style="--d:.2s" x="92" y="70" width="44" height="56" rx="8" fill="url(#bg)"/><rect class="gb pos" style="--d:.4s" x="162" y="45" width="44" height="81" rx="8" fill="url(#bg)"/><rect class="gb pos" style="--d:.6s" x="232" y="12" width="44" height="114" rx="8" fill="url(#bg)"/>
+<polyline class="gline" points="44,110 114,68 184,43 254,10" fill="none" stroke="#1E4FA8" stroke-width="3" stroke-linecap="round" pathLength="1"/>
+<g class="gl" fill="#fff" stroke="#1E4FA8" stroke-width="3"><circle cx="44" cy="110" r="5"/><circle cx="114" cy="68" r="5"/><circle cx="184" cy="43" r="5"/><circle cx="254" cy="10" r="5"/></g>
+<g font-family="Poppins" font-size="11" fill="#5E6E86" text-anchor="middle"><text x="44" y="144">Q1</text><text x="114" y="144">Q2</text><text x="184" y="144">Q3</text><text x="254" y="144">Q4</text></g>
+</svg>
+</div>
+<div class="glass quote"><h3>Strategic insight</h3><q>Growth stays profitable only if acquisition is organic: CAC ≤Rp150 lifts LTV:CAC from 0.96x to 3.2x.</q><p class="muted">From our financial model</p></div>
+</div>
+<div class="bento2">
+<div class="glass mini"><span class="muted">Year 1 revenue</span><b>Rp1.03B</b><span class="muted">±7,500 premium by Q4</span></div>
+<div class="glass mini"><span class="muted">Break-even</span><b>Q4 Year 1</b><span class="muted">payback ±12 months</span></div>
+<div class="glass mini"><span class="muted">Users by Year 3</span><b>4M</b><span class="muted">±60,000 premium</span></div>
+<div class="glass mini"><span class="muted">3T students supported</span><b>±20,600</b><span class="muted">by Year 3 · SDG 4</span></div>
+</div>
+
+<!-- SUN -->
+<section id="strategy">
+<div class="center"><span class="eyebrow">The SUN Strategy</span>
+<h2>Three strategies, one <em>connected funnel</em></h2>
+<p class="lead">Mapped to the AARRR framework and the three problems in the casebook: acquisition, retention, and conversion.</p></div>
+<div class="sun">
+<div class="glass"><div class="letter l1">S</div><h3>Spark with AI</h3><div class="role">Acquisition & Activation</div>
+<ul><li>AI Mini Test with a personal learning profile</li><li>Seasonal campaigns (LPDP, UTBK, CPNS) with KOLs (Key Opinion Leaders)</li><li>Migration of 10,000+ web users</li></ul>
+<div class="kpi"><span>1M downloads</span><span>40% activation</span></div></div>
+<div class="glass"><div class="letter l2">U</div><h3>Unlock Daily Habits</h3><div class="role">Retention & Referral</div>
+<ul><li>Daily habit loop (Hook Model): trigger, action, reward, investment</li><li>AI Weakness Map + 5-minute Kelas Kilat</li><li>Streaks & lives rewarded with AI Credits; Fighter League</li><li>Cross-exam journey: UTBK → CPNS → LPDP</li></ul>
+<div class="kpi"><span>25% MAU</span><span>D7 25% / D30 15%</span><span>≥20% cross-exam</span></div></div>
+<div class="glass"><div class="letter l3">N</div><h3>Nurture to Premium</h3><div class="role">Revenue</div>
+<ul><li>Contextual paywall at high-intent moments</li><li>Clear freemium boundary + Season Pass until exam day</li><li>Terang Expert Connect: paid expert interview sessions</li><li>Impactful Premium: cross-subsidy for 3T students</li></ul>
+<div class="kpi"><span>3% conversion</span><span>±7,500 premium</span><span>Rp1.03B</span></div></div>
+</div>
+</section>
+
+<!-- COMPARISON -->
+<section>
+<div class="compare">
+<div class="center"><h2>Why the SUN flow is different</h2><p class="lead">Competitors such as Ruangguru and Kelas Pintar already offer AI features and subscriptions. Our edge is the connected flow, not any single feature.</p></div>
+<div class="cmp2"><div class="hd lab"></div><div class="hd tr first">Terang AI + SUN<small>connected flow</small></div><div class="hd ot first">Typical alternatives<small>single features</small></div><div class="cl lab"><span>Diagnosis</span></div><div class="cl tr"><svg class="ic ok" viewBox="0 0 24 24" aria-label="Yes"><circle cx="12" cy="12" r="11"/><path d="M7 12.5l3.2 3L17 9"/></svg><p><em>Diagnosis</em>AI Weakness Map per question type</p></div><div class="cl ot"><svg class="ic pa" viewBox="0 0 24 24" aria-label="Partial"><circle cx="12" cy="12" r="11"/><path d="M7 12h10"/></svg><p><em>Diagnosis</em>Available on several platforms</p></div><div class="cl lab"><span>Learning after diagnosis</span></div><div class="cl tr"><svg class="ic ok" viewBox="0 0 24 24" aria-label="Yes"><circle cx="12" cy="12" r="11"/><path d="M7 12.5l3.2 3L17 9"/></svg><p><em>Learning after diagnosis</em>Teach first: 5-minute Kelas Kilat, then a 5-question mission</p></div><div class="cl ot"><svg class="ic pa" viewBox="0 0 24 24" aria-label="Partial"><circle cx="12" cy="12" r="11"/><path d="M7 12h10"/></svg><p><em>Learning after diagnosis</em>Material recommendations, not one flow</p></div><div class="cl lab"><span>Daily habit</span></div><div class="cl tr"><svg class="ic ok" viewBox="0 0 24 24" aria-label="Yes"><circle cx="12" cy="12" r="11"/><path d="M7 12.5l3.2 3L17 9"/></svg><p><em>Daily habit</em>Streak + AI Credits rewards + Fighter League</p></div><div class="cl ot"><svg class="ic pa" viewBox="0 0 24 24" aria-label="Partial"><circle cx="12" cy="12" r="11"/><path d="M7 12h10"/></svg><p><em>Daily habit</em>Leaderboards of top scores</p></div><div class="cl lab"><span>After the exam</span></div><div class="cl tr"><svg class="ic ok" viewBox="0 0 24 24" aria-label="Yes"><circle cx="12" cy="12" r="11"/><path d="M7 12.5l3.2 3L17 9"/></svg><p><em>After the exam</em>Progress carries over to the next exam</p></div><div class="cl ot"><svg class="ic no" viewBox="0 0 24 24" aria-label="No"><circle cx="12" cy="12" r="11"/><path d="M8 8l8 8M16 8l-8 8"/></svg><p><em>After the exam</em>Usage drops after the season</p></div><div class="cl lab"><span>Interview prep</span></div><div class="cl tr"><svg class="ic ok" viewBox="0 0 24 24" aria-label="Yes"><circle cx="12" cy="12" r="11"/><path d="M7 12.5l3.2 3L17 9"/></svg><p><em>Interview prep</em>Free AI interview + paid expert sessions</p></div><div class="cl ot"><svg class="ic no" viewBox="0 0 24 24" aria-label="No"><circle cx="12" cy="12" r="11"/><path d="M8 8l8 8M16 8l-8 8"/></svg><p><em>Interview prep</em>Separate products or none</p></div><div class="cl lab"><span>Exam segments</span></div><div class="cl tr"><svg class="ic ok" viewBox="0 0 24 24" aria-label="Yes"><circle cx="12" cy="12" r="11"/><path d="M7 12.5l3.2 3L17 9"/></svg><p><em>Exam segments</em>UTBK, CPNS, and LPDP in one app</p></div><div class="cl ot"><svg class="ic pa" viewBox="0 0 24 24" aria-label="Partial"><circle cx="12" cy="12" r="11"/><path d="M7 12h10"/></svg><p><em>Exam segments</em>Usually focused on one segment</p></div><div class="cl lab"><span>Social impact</span></div><div class="cl tr last"><svg class="ic ok" viewBox="0 0 24 24" aria-label="Yes"><circle cx="12" cy="12" r="11"/><path d="M7 12.5l3.2 3L17 9"/></svg><p><em>Social impact</em>Premium funds free access for 3T students</p></div><div class="cl ot last"><svg class="ic no" viewBox="0 0 24 24" aria-label="No"><circle cx="12" cy="12" r="11"/><path d="M8 8l8 8M16 8l-8 8"/></svg><p><em>Social impact</em>Not part of the model</p></div></div>
+<div class="legend"><span><svg class="ic ok" viewBox="0 0 24 24" aria-label="Yes"><circle cx="12" cy="12" r="11"/><path d="M7 12.5l3.2 3L17 9"/></svg>Fully covered</span><span><svg class="ic pa" viewBox="0 0 24 24" aria-label="Partial"><circle cx="12" cy="12" r="11"/><path d="M7 12h10"/></svg>Partly covered</span><span><svg class="ic no" viewBox="0 0 24 24" aria-label="No"><circle cx="12" cy="12" r="11"/><path d="M8 8l8 8M16 8l-8 8"/></svg>Not covered</span></div>
+</div>
+</section>
+
+<!-- FREEMIUM -->
+<section>
+<div class="center"><span class="eyebrow">Freemium boundary</span><h2>A <em>value ladder</em>, not a paywall wall</h2><p class="lead">Free stays useful enough to keep users; premium is clearly better. Season Pass and expert prices are team assumptions.</p></div>
+<div class="pcw"><div class="ptable">
+<div class="ph lab">Feature</div><div class="ph c1">Free<small>Rp0</small></div><div class="ph c2">Premium<small>Rp25,000/month</small></div><div class="ph c3">Season Pass<small>one payment per exam</small></div><div class="ph c4">Expert Connect<small>per session</small></div>
+<div class="pc lab">AI Mini Test & learning profile</div><div class="pc"><svg class="ic ok" viewBox="0 0 24 24" aria-label="Yes"><circle cx="12" cy="12" r="11"/><path d="M7 12.5l3.2 3L17 9"/></svg></div><div class="pc"><svg class="ic ok" viewBox="0 0 24 24" aria-label="Yes"><circle cx="12" cy="12" r="11"/><path d="M7 12.5l3.2 3L17 9"/></svg></div><div class="pc"><svg class="ic ok" viewBox="0 0 24 24" aria-label="Yes"><circle cx="12" cy="12" r="11"/><path d="M7 12.5l3.2 3L17 9"/></svg></div><div class="pc"><svg class="ic ok" viewBox="0 0 24 24" aria-label="Yes"><circle cx="12" cy="12" r="11"/><path d="M7 12.5l3.2 3L17 9"/></svg></div>
+<div class="pc lab alt">AI interview practice</div><div class="pc alt"><svg class="ic ok" viewBox="0 0 24 24" aria-label="Yes"><circle cx="12" cy="12" r="11"/><path d="M7 12.5l3.2 3L17 9"/></svg></div><div class="pc alt"><svg class="ic ok" viewBox="0 0 24 24" aria-label="Yes"><circle cx="12" cy="12" r="11"/><path d="M7 12.5l3.2 3L17 9"/></svg></div><div class="pc alt"><svg class="ic ok" viewBox="0 0 24 24" aria-label="Yes"><circle cx="12" cy="12" r="11"/><path d="M7 12.5l3.2 3L17 9"/></svg></div><div class="pc alt"><svg class="ic ok" viewBox="0 0 24 24" aria-label="Yes"><circle cx="12" cy="12" r="11"/><path d="M7 12.5l3.2 3L17 9"/></svg></div>
+<div class="pc lab">Kelas Kilat</div><div class="pc">1 per day</div><div class="pc">Unlimited</div><div class="pc">Unlimited</div><div class="pc">Unlimited</div>
+<div class="pc lab alt">Weakness Map</div><div class="pc alt">Weakest topic</div><div class="pc alt">All topics + root causes</div><div class="pc alt">All topics + root causes</div><div class="pc alt">All topics + root causes</div>
+<div class="pc lab">Study plan until exam day</div><div class="pc"><svg class="ic no" viewBox="0 0 24 24" aria-label="No"><circle cx="12" cy="12" r="11"/><path d="M8 8l8 8M16 8l-8 8"/></svg></div><div class="pc"><svg class="ic ok" viewBox="0 0 24 24" aria-label="Yes"><circle cx="12" cy="12" r="11"/><path d="M7 12.5l3.2 3L17 9"/></svg></div><div class="pc"><svg class="ic ok" viewBox="0 0 24 24" aria-label="Yes"><circle cx="12" cy="12" r="11"/><path d="M7 12.5l3.2 3L17 9"/></svg></div><div class="pc"><svg class="ic ok" viewBox="0 0 24 24" aria-label="Yes"><circle cx="12" cy="12" r="11"/><path d="M7 12.5l3.2 3L17 9"/></svg></div>
+<div class="pc lab alt">Streak rewards</div><div class="pc alt">Standard</div><div class="pc alt">2x + protection</div><div class="pc alt">2x + protection</div><div class="pc alt">2x + protection</div>
+<div class="pc lab">Expert sessions</div><div class="pc">Full price</div><div class="pc">Discount</div><div class="pc">1 group class bundled</div><div class="pc">Group, recording review, 1-on-1</div>
+</div></div>
+</section>
+
+<!-- PROTOTYPE -->
+<section id="prototype">
+<div class="center"><span class="eyebrow">UI/UX prototype</span><h2>The <em>contextual paywall</em> flow</h2><p class="lead">The offer appears only at high-intent moments, at most once a day, and can always be dismissed. Figures are illustrative.</p></div>
+<div class="screens">
+<figure class="glass"><img src="assets/Main_EN.png" alt="Tryout result with blurred full Weakness Map and Try Premium button" loading="lazy"><figcaption>1 · Tryout result + paywall</figcaption></figure>
+<figure class="glass"><img src="assets/PilihPaket.png" alt="Choose a plan: monthly or Season Pass" loading="lazy"><figcaption>2 · Choose a plan</figcaption></figure>
+<figure class="glass"><img src="assets/Sukses.png" alt="Premium active with full Weakness Map" loading="lazy"><figcaption>3 · Premium active</figcaption></figure>
+<figure class="glass"><img src="assets/KuotaHabis.png" alt="Bottom sheet when the daily Kelas Kilat quota is used" loading="lazy"><figcaption>Variant · Daily quota used</figcaption></figure>
+</div>
+<p class="muted center" style="margin-top:12px">Screens 2 to 4 are in Bahasa Indonesia, the app's user language.</p>
+</section>
+
+<!-- MODEL -->
+<section id="model">
+<div class="center"><span class="eyebrow">Financial model</span><h2>Every number, <em>traceable</em></h2><p class="lead">Segment targets feed the quarterly timeline, which feeds the 3-year projection. Items marked as assumptions are team estimates.</p></div>
+<div class="glass card" style="margin-bottom:16px"><h3>Year 1 target by segment</h3><div class="tw"><table class="dt seg">
+<tr><th>Segment</th><th class="n">Population</th><th class="n">Penetration</th><th class="n">Downloads</th><th>Season</th></tr>
+<tr><td>Web user migration</td><td class="n">10,000</td><td class="n">50%</td><td class="n">5,000</td><td>Q1</td></tr>
+<tr><td>LPDP applicants</td><td class="n">78,596</td><td class="n">25%</td><td class="n">19,649</td><td>Q1</td></tr>
+<tr><td>UTBK-SNBT applicants</td><td class="n">860,976</td><td class="n">35%</td><td class="n">301,342</td><td>Q1 to Q2</td></tr>
+<tr><td>CPNS applicants</td><td class="n">3,872,844</td><td class="n">13%</td><td class="n">503,470</td><td>Q3 to Q4</td></tr>
+<tr><td>General AI users <span class="tag">assumption</span></td><td class="n">1,700,000</td><td class="n">10%</td><td class="n">170,000</td><td>Q1 to Q4</td></tr>
+<tr class="total"><td>Total</td><td class="n">6,522,416</td><td class="n">15%</td><td class="n">999,460</td><td></td></tr>
+</table></div></div>
+<div class="two">
+<div class="glass card"><h3>3-year projection</h3><div class="tw"><table class="dt">
+<tr><th>Metric</th><th class="n">Year 1</th><th class="n">Year 2</th><th class="n">Year 3</th></tr>
+<tr><td>Cumulative downloads</td><td class="n">1M</td><td class="n">2.5M</td><td class="n">4M</td></tr>
+<tr><td>MAU / downloads</td><td class="n">25%</td><td class="n">28%</td><td class="n">30%</td></tr>
+<tr><td>Premium / MAU</td><td class="n">3%</td><td class="n">4%</td><td class="n">5%</td></tr>
+<tr><td>Premium subscribers</td><td class="n">7,496</td><td class="n">28,000</td><td class="n">60,000</td></tr>
+<tr><td>Revenue</td><td class="n">Rp1.03B</td><td class="n">Rp4.53B</td><td class="n">Rp11.22B</td></tr>
+<tr><td>Total cost</td><td class="n">Rp915M</td><td class="n">Rp1.74B</td><td class="n">Rp2.88B</td></tr>
+<tr class="total"><td>Net profit</td><td class="n">Rp119M</td><td class="n">Rp2.78B</td><td class="n">Rp8.35B</td></tr>
+</table></div></div>
+<div class="glass card"><h3>Estimated cost (Rp million)</h3><div class="tw"><table class="dt">
+<tr><th>Component</th><th class="n">Y1</th><th class="n">Y2</th><th class="n">Y3</th></tr>
+<tr><td>Acquisition (CAC Rp150)</td><td class="n">150</td><td class="n">225</td><td class="n">225</td></tr>
+<tr><td>Server & AI (Rp2,000/MAU/yr)</td><td class="n">270</td><td class="n">950</td><td class="n">1,900</td></tr>
+<tr><td>AI Credits rewards</td><td class="n">45</td><td class="n">120</td><td class="n">200</td></tr>
+<tr><td>Feature development</td><td class="n">300</td><td class="n">200</td><td class="n">200</td></tr>
+<tr><td>Operations</td><td class="n">150</td><td class="n">250</td><td class="n">350</td></tr>
+<tr class="total"><td>Total</td><td class="n">915</td><td class="n">1,745</td><td class="n">2,875</td></tr>
+</table></div></div>
+</div>
+<div class="two" style="margin-top:16px">
+<div class="glass card"><h3>Year 1 cumulative profit (Rp million)</h3>
+<svg class="anim" viewBox="0 0 320 170" width="100%" role="img" aria-label="Cumulative profit: Q1 -179, Q2 -230, Q3 -134, Q4 +119">
+<line x1="10" y1="80" x2="310" y2="80" stroke="#C9D8F5" stroke-width="2"/>
+<g><rect class="gb neg" style="--d:0s" x="30" y="80" width="46" height="45" rx="6" fill="#F6B730"/><rect class="gb neg" style="--d:.25s" x="100" y="80" width="46" height="58" rx="6" fill="#F6B730"/><rect class="gb neg" style="--d:.5s" x="170" y="80" width="46" height="34" rx="6" fill="#F6B730"/><rect class="gb pos" style="--d:.75s" x="240" y="50" width="46" height="30" rx="6" fill="#2F6BF2"/></g>
+<g class="gl" font-family="Poppins" font-size="12" font-weight="700" text-anchor="middle" fill="#0B1F4D"><text x="53" y="142">-179</text><text x="123" y="155">-230</text><text x="193" y="131">-134</text><text x="263" y="43">+119</text></g>
+<g font-family="Poppins" font-size="11" fill="#5E6E86" text-anchor="middle"><text x="53" y="72">Q1</text><text x="123" y="72">Q2</text><text x="193" y="72">Q3</text><text x="263" y="98">Q4</text></g>
+</svg><p class="muted">Break-even in Q4 Year 1. The deepest point (Rp230M, Q2) is the working capital needed.</p></div>
+<div class="glass card"><h3>Key assumptions <span class="tag">team estimates</span></h3><div class="tw"><table class="dt">
+<tr><th>Assumption</th><th>Value</th></tr>
+<tr><td>Activation (first AI Mini Test)</td><td>40%</td></tr>
+<tr><td>Premium price / app store fee</td><td>Rp25,000 / 15%</td></tr>
+<tr><td>Avg. subscription (Year 1)</td><td>3 months</td></tr>
+<tr><td>CAC target (organic)</td><td>Rp150</td></tr>
+<tr><td>LTV per premium user</td><td>Rp63,750</td></tr>
+<tr><td>3T access ratio</td><td>1 per 5 premium</td></tr>
+</table></div></div>
+</div>
+</section>
+
+
+
+<!-- SOURCES -->
+<section>
+<div class="center"><span class="eyebrow">Sources</span><h2>Data & frameworks</h2></div>
+<div class="glass card"><ul class="src">
+<li>Casebook Mini Case Competition Techtonic 3.0 × Terang AI (2026): company profile, 10,000+ web users, 1,500 3T students, premium price from Rp25,000/month.</li>
+<li>SNPMB (2025). UTBK-SNBT 2025: 860,976 applicants, 29.43% admitted.</li>
+<li>BKN (2024). CPNS 2024 selection: 3,872,844 applicants.</li>
+<li>LPDP (2025). LPDP scholarship 2025: 78,596 applicants.</li>
+<li>Republic of Indonesia (2022). Law No. 27 of 2022 on Personal Data Protection.</li>
+<li>McClure, D. (2007). Startup Metrics for Pirates: AARRR.</li>
+<li>Eyal, N. (2014). Hooked: How to Build Habit-Forming Products. Portfolio.</li>
+<li>Competitor review: Ruangguru, Kelas Pintar, Pahamify, Analitica (public product pages and social media, 2026).</li>
+</ul></div>
+</section>
+</main>
+
+<footer><div class="wrap">
+<div class="fbox"><div><span style="display:inline-block;background:#fff;border-radius:14px;padding:8px 14px;margin-bottom:12px"><img src="assets/terang-logo.png" alt="terang.ai" style="height:28px;display:block"></span><h3>The SUN Strategy</h3><p>Spark with AI · Unlock Daily Habits · Nurture to Premium</p></div>
+<div><p style="margin:0 0 10px;color:#fff;font-weight:600">Team Semelegenje</p><img src="assets/techtonic-logo.png" alt="Techtonic 3.0" style="height:46px;margin-bottom:12px"><div class="team"><span>Techtonic 3.0 MCC</span><span>IEEE SB UI</span><span>Case partner: Terang AI</span></div></div></div>
+<div class="copy">All projections are team estimates prepared for the Techtonic 3.0 Mini Case Competition × Terang AI.</div>
+</div></footer>
+<script>
+(function(){var els=document.querySelectorAll('.anim');
+if(!('IntersectionObserver' in window)){els.forEach(function(e){e.classList.add('in')});return;}
+var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}})},{threshold:.35});
+els.forEach(function(e){io.observe(e)});})();
+</script>
+</body>
+</html>
